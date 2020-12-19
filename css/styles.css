@@ -1,0 +1,32 @@
+#tree {
+	color: green;
+	font-size: 5em;
+	text-align: center;
+}
+
+#star {
+	color: black;
+	font-size: 1.25em;
+	transition: color ease 1s;
+}
+
+
+.light {
+	text-shadow: 0 0 10px yellow, 0 0 50px darkgreen;
+	transition: color ease 15s;
+	cursor: url('data:image/svg+xml;utf8,<svg xmlns="http://www.w3.org/2000/svg" width="24" height="30" style="font-size: 20px;"><text y="15">✨</text></svg>'), auto;
+}
+
+.light:hover {
+	transition: color ease .1s;
+}
+
+#star.on, .light.on {
+	color: yellow;
+	transition: color ease .1s;
+}
+
+#stub {
+	font-size: .5em;
+}
+
